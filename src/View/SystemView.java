@@ -15,7 +15,7 @@ public class SystemView extends javax.swing.JFrame {
         setSize(365, 590);
         setResizable(false);
         setLocationRelativeTo(null);
-        //setFocusCycleRoot(rootPaneCheckingEnabled);
+        setFocusCycleRoot(rootPaneCheckingEnabled);
     }
 
     /**
@@ -52,56 +52,88 @@ public class SystemView extends javax.swing.JFrame {
         jButton22 = new javax.swing.JButton();
         jButton23 = new javax.swing.JButton();
         jButton24 = new javax.swing.JButton();
+        txt_resultado = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        jButton1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jButton1.setText("0");
 
+        jButton2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jButton2.setText(",");
 
+        jButton3.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jButton3.setText("=");
 
+        jButton4.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jButton4.setText("+");
 
+        jButton5.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jButton5.setText("3");
 
+        jButton6.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jButton6.setText("+/-");
 
+        jButton7.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jButton7.setText("1");
 
+        jButton8.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jButton8.setText("-");
 
+        jButton9.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jButton9.setText("6");
 
+        jButton10.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jButton10.setText("5");
 
+        jButton11.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jButton11.setText("4");
 
+        jButton12.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jButton12.setText("x");
 
+        jButton13.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jButton13.setText("2");
 
+        jButton14.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jButton14.setText("8");
 
+        jButton15.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jButton15.setText("/");
 
+        jButton16.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jButton16.setText("9");
 
+        jButton17.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jButton17.setText("²√x");
 
+        jButton18.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jButton18.setText("x²");
 
         jButton19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/borrar.png"))); // NOI18N
 
+        jButton20.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jButton20.setText("CE");
 
+        jButton21.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jButton21.setText("C");
 
+        jButton22.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jButton22.setText(" ½");
 
+        jButton23.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jButton23.setText("7");
 
+        jButton24.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jButton24.setText("%");
+
+        txt_resultado.setFont(new java.awt.Font("Tahoma", 1, 36)); // NOI18N
+        txt_resultado.setText("151");
+        txt_resultado.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txt_resultadoActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -110,6 +142,7 @@ public class SystemView extends javax.swing.JFrame {
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(txt_resultado)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jButton24, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -164,7 +197,9 @@ public class SystemView extends javax.swing.JFrame {
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addContainerGap(225, Short.MAX_VALUE)
+                .addContainerGap(71, Short.MAX_VALUE)
+                .addComponent(txt_resultado, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(69, 69, 69)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton19, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jButton21, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -223,6 +258,10 @@ public class SystemView extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    private void txt_resultadoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_resultadoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txt_resultadoActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -259,30 +298,31 @@ public class SystemView extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton10;
-    private javax.swing.JButton jButton11;
-    private javax.swing.JButton jButton12;
-    private javax.swing.JButton jButton13;
-    private javax.swing.JButton jButton14;
-    private javax.swing.JButton jButton15;
-    private javax.swing.JButton jButton16;
-    private javax.swing.JButton jButton17;
-    private javax.swing.JButton jButton18;
+    public javax.swing.JButton jButton1;
+    public javax.swing.JButton jButton10;
+    public javax.swing.JButton jButton11;
+    public javax.swing.JButton jButton12;
+    public javax.swing.JButton jButton13;
+    public javax.swing.JButton jButton14;
+    public javax.swing.JButton jButton15;
+    public javax.swing.JButton jButton16;
+    public javax.swing.JButton jButton17;
+    public javax.swing.JButton jButton18;
     private javax.swing.JButton jButton19;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton20;
-    private javax.swing.JButton jButton21;
-    private javax.swing.JButton jButton22;
-    private javax.swing.JButton jButton23;
-    private javax.swing.JButton jButton24;
-    private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton4;
-    private javax.swing.JButton jButton5;
-    private javax.swing.JButton jButton6;
-    private javax.swing.JButton jButton7;
-    private javax.swing.JButton jButton8;
-    private javax.swing.JButton jButton9;
+    public javax.swing.JButton jButton2;
+    public javax.swing.JButton jButton20;
+    public javax.swing.JButton jButton21;
+    public javax.swing.JButton jButton22;
+    public javax.swing.JButton jButton23;
+    public javax.swing.JButton jButton24;
+    public javax.swing.JButton jButton3;
+    public javax.swing.JButton jButton4;
+    public javax.swing.JButton jButton5;
+    public javax.swing.JButton jButton6;
+    public javax.swing.JButton jButton7;
+    public javax.swing.JButton jButton8;
+    public javax.swing.JButton jButton9;
     public javax.swing.JPanel jPanel1;
+    public javax.swing.JTextField txt_resultado;
     // End of variables declaration//GEN-END:variables
 }
