@@ -5,6 +5,7 @@ package Model;
  * @author samir
  */
 public class Model {
+
     int num1, num2;
 
     public Model() {
@@ -31,19 +32,31 @@ public class Model {
         this.num2 = num2;
     }
     
-    public void Sumar(){
-    int Resultado = num1 + num2;
-    }
     
-    public void Restar(){
-    int Resultado = num1 - num2;
+
+    public int sumar() {
+        int sumar = num1 + num2;
+
+        return sumar;
     }
-    
-    public void Multiplicar(){
-    int Resultado = num1 * num2;
+
+    public int restar() {
+
+        int restar = num1 - num2;
+        return restar;
     }
-    
-    public void Dividir(){
-    int Resultado = num1 / num2;
+
+    public int multiplicar() {
+
+        int multi = num1 * num2;
+        return multi;
     }
+
+    public int division() {
+
+        int division = num1 / num2;
+
+        return division;
+    }
+
 }

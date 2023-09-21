@@ -58,7 +58,7 @@
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                              <Component id="jButton20" linkSize="1" pref="81" max="32767" attributes="0"/>
+                              <Component id="btn_borrar_todo" linkSize="1" pref="81" max="32767" attributes="0"/>
                               <Component id="jButton18" linkSize="1" max="32767" attributes="0"/>
                           </Group>
                           <EmptySpace max="32767" attributes="0"/>
@@ -68,48 +68,48 @@
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                              <Component id="jButton15" linkSize="1" max="32767" attributes="0"/>
-                              <Component id="jButton19" linkSize="1" max="32767" attributes="0"/>
+                              <Component id="btn_dividir" linkSize="1" max="32767" attributes="0"/>
+                              <Component id="btn_borrar_uno" linkSize="1" max="32767" attributes="0"/>
                           </Group>
                       </Group>
                       <Group type="102" attributes="0">
                           <Group type="103" groupAlignment="1" attributes="0">
                               <Group type="102" attributes="0">
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="jButton11" linkSize="1" min="-2" pref="72" max="-2" attributes="0"/>
-                                      <Component id="jButton23" linkSize="1" min="-2" pref="72" max="-2" attributes="0"/>
+                                      <Component id="btn_cuatro" linkSize="1" min="-2" pref="72" max="-2" attributes="0"/>
+                                      <Component id="btn_siete" linkSize="1" min="-2" pref="72" max="-2" attributes="0"/>
                                   </Group>
                                   <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                      <Component id="jButton10" linkSize="1" pref="78" max="32767" attributes="0"/>
-                                      <Component id="jButton14" linkSize="1" max="32767" attributes="0"/>
+                                      <Component id="btn_cinco" linkSize="1" pref="78" max="32767" attributes="0"/>
+                                      <Component id="btn_ocho" linkSize="1" max="32767" attributes="0"/>
                                   </Group>
                               </Group>
                               <Group type="102" alignment="0" attributes="0">
                                   <Group type="103" groupAlignment="0" max="-2" attributes="0">
                                       <Component id="jButton6" linkSize="1" max="32767" attributes="0"/>
-                                      <Component id="jButton7" linkSize="1" max="32767" attributes="0"/>
+                                      <Component id="btn_uno" linkSize="1" max="32767" attributes="0"/>
                                   </Group>
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="jButton1" linkSize="1" min="-2" pref="78" max="-2" attributes="0"/>
-                                      <Component id="jButton13" linkSize="1" min="-2" pref="78" max="-2" attributes="0"/>
+                                      <Component id="btn_cero" linkSize="1" min="-2" pref="78" max="-2" attributes="0"/>
+                                      <Component id="btn_dos" linkSize="1" min="-2" pref="78" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                           </Group>
                           <EmptySpace max="32767" attributes="0"/>
                           <Group type="103" groupAlignment="1" max="-2" attributes="0">
-                              <Component id="jButton16" linkSize="1" max="32767" attributes="0"/>
-                              <Component id="jButton2" alignment="1" max="32767" attributes="0"/>
-                              <Component id="jButton9" linkSize="1" alignment="1" max="32767" attributes="0"/>
-                              <Component id="jButton5" linkSize="1" alignment="1" max="32767" attributes="0"/>
+                              <Component id="btn_nueve" linkSize="1" max="32767" attributes="0"/>
+                              <Component id="btn_coma" alignment="1" max="32767" attributes="0"/>
+                              <Component id="btn_seis" linkSize="1" alignment="1" max="32767" attributes="0"/>
+                              <Component id="btn_tres" linkSize="1" alignment="1" max="32767" attributes="0"/>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                              <Component id="jButton8" linkSize="1" pref="75" max="32767" attributes="0"/>
-                              <Component id="jButton12" linkSize="1" max="32767" attributes="0"/>
-                              <Component id="jButton4" linkSize="1" max="32767" attributes="0"/>
-                              <Component id="jButton3" max="32767" attributes="0"/>
+                              <Component id="btn_resta" linkSize="1" pref="75" max="32767" attributes="0"/>
+                              <Component id="btn_multiplicacion" linkSize="1" max="32767" attributes="0"/>
+                              <Component id="btn_suma" linkSize="1" max="32767" attributes="0"/>
+                              <Component id="btn_igual" max="32767" attributes="0"/>
                           </Group>
                       </Group>
                   </Group>
@@ -124,44 +124,44 @@
                   <Component id="txt_resultado" min="-2" pref="85" max="-2" attributes="0"/>
                   <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="jButton19" linkSize="2" alignment="3" min="-2" pref="49" max="-2" attributes="0"/>
+                      <Component id="btn_borrar_uno" linkSize="2" alignment="3" min="-2" pref="49" max="-2" attributes="0"/>
                       <Component id="jButton21" linkSize="2" alignment="3" min="-2" pref="49" max="-2" attributes="0"/>
-                      <Component id="jButton20" linkSize="2" alignment="3" min="-2" pref="49" max="-2" attributes="0"/>
+                      <Component id="btn_borrar_todo" linkSize="2" alignment="3" min="-2" pref="49" max="-2" attributes="0"/>
                       <Component id="jButton24" linkSize="2" alignment="3" min="-2" pref="49" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="jButton15" linkSize="2" alignment="3" min="-2" pref="49" max="-2" attributes="0"/>
+                      <Component id="btn_dividir" linkSize="2" alignment="3" min="-2" pref="49" max="-2" attributes="0"/>
                       <Component id="jButton17" linkSize="2" alignment="3" min="-2" pref="49" max="-2" attributes="0"/>
                       <Component id="jButton18" linkSize="2" alignment="3" min="-2" pref="49" max="-2" attributes="0"/>
                       <Component id="jButton22" linkSize="2" alignment="3" min="-2" pref="49" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="jButton12" linkSize="2" alignment="3" min="-2" pref="49" max="-2" attributes="0"/>
-                      <Component id="jButton14" linkSize="2" alignment="3" min="-2" pref="49" max="-2" attributes="0"/>
-                      <Component id="jButton16" linkSize="2" alignment="3" min="-2" pref="49" max="-2" attributes="0"/>
-                      <Component id="jButton23" linkSize="2" alignment="3" min="-2" pref="49" max="-2" attributes="0"/>
+                      <Component id="btn_multiplicacion" linkSize="2" alignment="3" min="-2" pref="49" max="-2" attributes="0"/>
+                      <Component id="btn_ocho" linkSize="2" alignment="3" min="-2" pref="49" max="-2" attributes="0"/>
+                      <Component id="btn_nueve" linkSize="2" alignment="3" min="-2" pref="49" max="-2" attributes="0"/>
+                      <Component id="btn_siete" linkSize="2" alignment="3" min="-2" pref="49" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="jButton8" alignment="3" min="-2" pref="49" max="-2" attributes="0"/>
-                      <Component id="jButton9" alignment="3" min="-2" pref="49" max="-2" attributes="0"/>
-                      <Component id="jButton10" alignment="3" min="-2" pref="49" max="-2" attributes="0"/>
-                      <Component id="jButton11" alignment="3" min="-2" pref="49" max="-2" attributes="0"/>
+                      <Component id="btn_resta" alignment="3" min="-2" pref="49" max="-2" attributes="0"/>
+                      <Component id="btn_seis" alignment="3" min="-2" pref="49" max="-2" attributes="0"/>
+                      <Component id="btn_cinco" alignment="3" min="-2" pref="49" max="-2" attributes="0"/>
+                      <Component id="btn_cuatro" alignment="3" min="-2" pref="49" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="jButton4" alignment="3" min="-2" pref="49" max="-2" attributes="0"/>
-                      <Component id="jButton5" alignment="3" min="-2" pref="49" max="-2" attributes="0"/>
-                      <Component id="jButton7" alignment="3" min="-2" pref="49" max="-2" attributes="0"/>
-                      <Component id="jButton13" alignment="3" min="-2" pref="49" max="-2" attributes="0"/>
+                      <Component id="btn_suma" alignment="3" min="-2" pref="49" max="-2" attributes="0"/>
+                      <Component id="btn_tres" alignment="3" min="-2" pref="49" max="-2" attributes="0"/>
+                      <Component id="btn_uno" alignment="3" min="-2" pref="49" max="-2" attributes="0"/>
+                      <Component id="btn_dos" alignment="3" min="-2" pref="49" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="jButton2" alignment="3" min="-2" pref="49" max="-2" attributes="0"/>
-                      <Component id="jButton1" alignment="3" min="-2" pref="49" max="-2" attributes="0"/>
-                      <Component id="jButton3" alignment="3" min="-2" pref="49" max="-2" attributes="0"/>
+                      <Component id="btn_coma" alignment="3" min="-2" pref="49" max="-2" attributes="0"/>
+                      <Component id="btn_cero" alignment="3" min="-2" pref="49" max="-2" attributes="0"/>
+                      <Component id="btn_igual" alignment="3" min="-2" pref="49" max="-2" attributes="0"/>
                       <Component id="jButton6" alignment="3" min="-2" pref="49" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
@@ -170,7 +170,7 @@
         </DimensionLayout>
       </Layout>
       <SubComponents>
-        <Component class="javax.swing.JButton" name="jButton1">
+        <Component class="javax.swing.JButton" name="btn_cero">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Tahoma" size="14" style="1"/>
@@ -181,7 +181,7 @@
             <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
           </AuxValues>
         </Component>
-        <Component class="javax.swing.JButton" name="jButton2">
+        <Component class="javax.swing.JButton" name="btn_coma">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Tahoma" size="14" style="1"/>
@@ -192,7 +192,7 @@
             <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
           </AuxValues>
         </Component>
-        <Component class="javax.swing.JButton" name="jButton3">
+        <Component class="javax.swing.JButton" name="btn_igual">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Tahoma" size="14" style="1"/>
@@ -203,7 +203,7 @@
             <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
           </AuxValues>
         </Component>
-        <Component class="javax.swing.JButton" name="jButton4">
+        <Component class="javax.swing.JButton" name="btn_suma">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Tahoma" size="14" style="1"/>
@@ -214,7 +214,7 @@
             <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
           </AuxValues>
         </Component>
-        <Component class="javax.swing.JButton" name="jButton5">
+        <Component class="javax.swing.JButton" name="btn_tres">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Tahoma" size="14" style="1"/>
@@ -236,7 +236,7 @@
             <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
           </AuxValues>
         </Component>
-        <Component class="javax.swing.JButton" name="jButton7">
+        <Component class="javax.swing.JButton" name="btn_uno">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Tahoma" size="14" style="1"/>
@@ -247,7 +247,7 @@
             <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
           </AuxValues>
         </Component>
-        <Component class="javax.swing.JButton" name="jButton8">
+        <Component class="javax.swing.JButton" name="btn_resta">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Tahoma" size="14" style="1"/>
@@ -258,7 +258,7 @@
             <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
           </AuxValues>
         </Component>
-        <Component class="javax.swing.JButton" name="jButton9">
+        <Component class="javax.swing.JButton" name="btn_seis">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Tahoma" size="14" style="1"/>
@@ -269,7 +269,7 @@
             <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
           </AuxValues>
         </Component>
-        <Component class="javax.swing.JButton" name="jButton10">
+        <Component class="javax.swing.JButton" name="btn_cinco">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Tahoma" size="14" style="1"/>
@@ -280,7 +280,7 @@
             <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
           </AuxValues>
         </Component>
-        <Component class="javax.swing.JButton" name="jButton11">
+        <Component class="javax.swing.JButton" name="btn_cuatro">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Tahoma" size="14" style="1"/>
@@ -291,7 +291,7 @@
             <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
           </AuxValues>
         </Component>
-        <Component class="javax.swing.JButton" name="jButton12">
+        <Component class="javax.swing.JButton" name="btn_multiplicacion">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Tahoma" size="14" style="1"/>
@@ -302,7 +302,7 @@
             <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
           </AuxValues>
         </Component>
-        <Component class="javax.swing.JButton" name="jButton13">
+        <Component class="javax.swing.JButton" name="btn_dos">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Tahoma" size="14" style="1"/>
@@ -313,7 +313,7 @@
             <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
           </AuxValues>
         </Component>
-        <Component class="javax.swing.JButton" name="jButton14">
+        <Component class="javax.swing.JButton" name="btn_ocho">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Tahoma" size="14" style="1"/>
@@ -324,7 +324,7 @@
             <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
           </AuxValues>
         </Component>
-        <Component class="javax.swing.JButton" name="jButton15">
+        <Component class="javax.swing.JButton" name="btn_dividir">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Tahoma" size="14" style="1"/>
@@ -335,7 +335,7 @@
             <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
           </AuxValues>
         </Component>
-        <Component class="javax.swing.JButton" name="jButton16">
+        <Component class="javax.swing.JButton" name="btn_nueve">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Tahoma" size="14" style="1"/>
@@ -368,14 +368,17 @@
             <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
           </AuxValues>
         </Component>
-        <Component class="javax.swing.JButton" name="jButton19">
+        <Component class="javax.swing.JButton" name="btn_borrar_uno">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
               <Image iconType="3" name="/Images/borrar.png"/>
             </Property>
           </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+          </AuxValues>
         </Component>
-        <Component class="javax.swing.JButton" name="jButton20">
+        <Component class="javax.swing.JButton" name="btn_borrar_todo">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Tahoma" size="14" style="1"/>
@@ -408,7 +411,7 @@
             <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
           </AuxValues>
         </Component>
-        <Component class="javax.swing.JButton" name="jButton23">
+        <Component class="javax.swing.JButton" name="btn_siete">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Tahoma" size="14" style="1"/>
@@ -435,7 +438,6 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Tahoma" size="36" style="1"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="151"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txt_resultadoActionPerformed"/>
