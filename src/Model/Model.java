@@ -4,14 +4,14 @@ package Model;
  *
  * @author samir
  */
-public class Model {
+public class ModelOperaciones {
 
     int num1, num2;
 
-    public Model() {
+    public ModelOperaciones() {
     }
 
-    public Model(int num1, int num2) {
+    public ModelOperaciones(int num1, int num2) {
         this.num1 = num1;
         this.num2 = num2;
     }
